@@ -1,3 +1,5 @@
+# This is the study for the book:
+
 # How to eat Pytorch in 20 days ?🔥🔥
 
 <!-- #region -->
