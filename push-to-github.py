@@ -9,27 +9,29 @@
 
 # !git init
 
-# !git add -A #./data/*  *.md *.py
+# !git add -A
+
+# !git pull origin master 
 
 # +
 # #!rm -rf *.html
 # -
 
-# !git rm --cached  .ipynb_checkpoints/* 
+# !git commit -m "revise readme" 
 
-# !git commit -m "add houji" 
+# !git remote add origin git@github.com:lyhue1991/eat_pytorch_in_20_days.git
 
-# !git remote add origin https://github.com/lyhue1991/eat_pytorch_in_20_days
+# !git remote remove origin 
 
-# !git pull origin master 
+# !git push origin master 
 
-# !git push  origin master 
+# !ssh -T git@github.com:lyhue1991/eat_pytorch_in_20_days.git
 
 # !git remote rm gitee 
 
 # !git remote add gitee https://gitee.com/Python_Ai_Road/eat_pytorch_in_20_days
 
-# !git push -f gitee master 
+# !git push -f  gitee master 
 
 # ## 创建pages分支
 
