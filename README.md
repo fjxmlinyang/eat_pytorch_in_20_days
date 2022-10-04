@@ -2,15 +2,59 @@
 
 # How to eat Pytorch in 20 days ?🔥🔥
 
-
-🔥🔥 B站讲解：https://www.bilibili.com/video/BV1Ua411P7oe
-
-🐳🐳 和鲸专栏：https://www.heywhale.com/home/column/5f2ac5d8af3980002cb1bc08
-
-🌺🌺 公众号：https://mp.weixin.qq.com/s/0YdveETOZkq2SFtDkIANEg 
+<!-- #region -->
+**《10天吃掉那只pyspark》**
+* 🚀 github项目地址: https://github.com/lyhue1991/eat_pyspark_in_10_days
+* 🐳 和鲸专栏地址: https://www.kesci.com/home/column/5fe6aa955e24ed00302304e0 【代码可直接fork后云端运行，无需配置环境】
 
 
-### 一，本书📖面向读者 👼
+**《20天吃掉那只Pytorch》**
+* 🚀 github项目地址: https://github.com/lyhue1991/eat_pytorch_in_20_days
+* 🐳 和鲸专栏地址: https://www.kesci.com/home/column/5f2ac5d8af3980002cb1bc08 【代码可直接fork后云端运行，无需配置环境】
+
+
+**《30天吃掉那只TensorFlow2》**
+* 🚀 github项目地址: https://github.com/lyhue1991/eat_tensorflow2_in_30_days
+* 🐳 和鲸专栏地址: https://www.kesci.com/home/column/5d8ef3c3037db3002d3aa3a0 【代码可直接fork后云端运行，无需配置环境】
+
+**极速通道** 
+*  🚀 公众号 “**算法美食屋**” 后台回复暗号："**吃货来了**"
+*  😋 获取以上3套教程的jupyter notebook 源码文件以及全部数据集的百度云盘下载链接。
+*  https://mp.weixin.qq.com/s/ymLtH5BqlWAkpOmCLQOYxw
+
+![image.png](./data/算法美食屋二维码.jpg)
+
+### 一， Pytorch🔥  or TensorFlow2 🍎 
+
+先说结论:
+
+**如果是工程师，应该优先选TensorFlow2.**
+
+**如果是学生或者研究人员，应该优先选择Pytorch.**
+
+**如果时间足够，最好TensorFlow2和Pytorch都要学习掌握。**
+<!-- #endregion -->
+
+理由如下：
+
+* 1，**在工业界最重要的是模型落地，目前国内的大部分互联网企业只支持TensorFlow模型的在线部署，不支持Pytorch。** 并且工业界更加注重的是模型的高可用性，许多时候使用的都是成熟的模型架构，调试需求并不大。
+
+
+* 2，**研究人员最重要的是快速迭代发表文章，需要尝试一些较新的模型架构。而Pytorch在易用性上相比TensorFlow2有一些优势，更加方便调试。** 并且在2019年以来在学术界占领了大半壁江山，能够找到的相应最新研究成果更多。
+
+
+* 3，TensorFlow2和Pytorch实际上整体风格已经非常相似了，学会了其中一个，学习另外一个将比较容易。两种框架都掌握的话，能够参考的开源模型案例更多，并且可以方便地在两种框架之间切换。
+
+
+本书的TensorFlow镜像教程：
+
+#### 🍊《30天吃掉那只TensorFlow2》：https://github.com/lyhue1991/eat_tensorflow2_in_30_days 
+
+```python
+
+```
+
+### 二，本书📖面向读者 👼
 
 
 **本书假定读者有一定的机器学习和深度学习基础，使用过Keras或TensorFlow或Pytorch搭建训练过简单的模型。**
@@ -32,22 +76,11 @@
 * 4，机器学习基础
 
 
-<!-- #region -->
+```python
 
+```
 
-
-
-🔥🔥**号外号外，《20天吃掉那只Pytorch》视频版本登录BiliBili啦，吃货本货倾情掌勺，只为最纯正的乡土味道，欢迎新老朋友前来品尝** 🍉🍉！
-
-https://www.bilibili.com/video/BV1Ua411P7oe
-    
-
-
-
-
-<!-- #endregion -->
-
-### 二，本书写作风格 🍉
+### 三，本书写作风格 🍉
 
 
 **本书是一本对人类用户极其友善的Pytorch入门工具书，Don't let me think是本书的最高追求。**
@@ -66,13 +99,13 @@ https://www.bilibili.com/video/BV1Ua411P7oe
 
 
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h536b2yro2j20k00b9myd.jpg)
+![](./data/Pytorch官方vs吃掉Pytorch.png)
 
 ```python
 
 ```
 
-### 三，本书学习方案 ⏰
+### 四，本书学习方案 ⏰
 
 **1，学习计划**
 
@@ -87,33 +120,34 @@ https://www.bilibili.com/video/BV1Ua411P7oe
 
 |日期 | 学习内容                                                       | 内容难度   | 预计学习时间 | 更新状态|
 |----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
-|&nbsp;|[**一、Pytorch的建模流程**](./一、Pytorch的建模流程.ipynb)    |⭐️   |   0hour   |✅    |
-|day1 | [1-1,结构化数据建模流程范例](./1-1,结构化数据建模流程范例.ipynb)    | ⭐️⭐️⭐️ |   1hour    |✅    |
-|day2 | [1-2,图片数据建模流程范例](./1-2,图片数据建模流程范例.ipynb)    | ⭐️⭐️⭐️⭐️  |   2hour    | ✅   |
-|day3 | [1-3,文本数据建模流程范例](./1-3,文本数据建模流程范例.ipynb)   | ⭐️⭐️⭐️⭐️⭐️  |   2hour    | ✅  |
-|day4 | [1-4,时间序列数据建模流程范例](./1-4,时间序列数据建模流程范例.ipynb)   | ⭐️⭐️⭐️⭐️⭐️  |   2hour    | ✅   |
-|&nbsp; |[**二、Pytorch的核心概念**](./二、Pytorch的核心概念.ipynb)  | ⭐️  |  0hour |✅  |
-|day5 |  [2-1,张量数据结构](./2-1,张量数据结构.ipynb)  | ⭐️⭐️⭐️⭐️   |   1hour    | ✅   |
-|day6 |  [2-2,自动微分机制](./2-2,自动微分机制.ipynb)  | ⭐️⭐️⭐️   |   1hour    | ✅  |
-|day7 |  [2-3,动态计算图](./2-3,动态计算图.ipynb)  | ⭐️⭐️⭐️⭐️⭐️   |   2hour    | ✅   |
-|&nbsp; |[**三、Pytorch的层次结构**](./三、Pytorch的层次结构.ipynb) |   ⭐️  |  0hour   | ✅  |
-|day8 |  [3-1,低阶API示范](./3-1,低阶API示范.ipynb)   | ⭐️⭐️⭐️⭐️   |   1hour    | ✅  |
-|day9 |  [3-2,中阶API示范](./3-2,中阶API示范.ipynb)   | ⭐️⭐️⭐️   |  1hour    |✅  |
-|day10 | [3-3,高阶API示范](./3-3,高阶API示范.ipynb)  | ⭐️⭐️⭐️  |   1hour    |✅ |
-|&nbsp; |[**四、Pytorch的低阶API**](./四、Pytorch的低阶API.ipynb) |⭐️    | 0hour| ✅ |
-|day11|  [4-1,张量的结构操作](./4-1,张量的结构操作.ipynb)  | ⭐️⭐️⭐️⭐️⭐️   |   2hour    | ✅ |
-|day12|  [4-2,张量的数学运算](./4-2,张量的数学运算.ipynb)   | ⭐️⭐️⭐️⭐️   |   1hour    |✅ |
-|day13|  [4-3,nn.functional和nn.Module](./4-3,nn.functional和nn.Module.ipynb)  | ⭐️⭐️⭐️⭐️   |   1hour    |✅ |
-|&nbsp; |[**五、Pytorch的中阶API**](./五、Pytorch的中阶API.ipynb) |  ⭐️  | 0hour|✅ |
-|day14|  [5-1,Dataset和DataLoader](./5-1,Dataset和DataLoader.ipynb)   | ⭐️⭐️⭐️⭐️   |   1hour    | ✅   |
-|day15|  [5-2,模型层](./5-3,模型层.ipynb)  | ⭐️⭐️⭐️⭐️⭐️ |   2hour    |✅  |
-|day16|  [5-3,损失函数](./5-4,损失函数.ipynb)    | ⭐️⭐️⭐️⭐️   |   1hour    |✅   |
-|day17|  [5-4,TensorBoard可视化](./5-4,TensorBoard可视化.ipynb)    | ⭐️⭐️⭐️   |   1hour    | ✅   |
-|&nbsp; |[**六、Pytorch的高阶API**](./六、Pytorch的高阶API.ipynb)|    ⭐️ | 0hour|✅  |
-|day18|  [6-1,构建模型的3种方法](./6-1,构建模型的3种方法.ipynb)   | ⭐️⭐️    |   0.5hour    |✅   |
-|day19|  [6-2,训练模型的3种方法](./6-2,训练模型的3种方法.ipynb)  | ⭐️⭐️⭐️   |   1hour    | ✅  |
-|day20|  [6-3,使用GPU训练模型](./6-3,使用GPU训练模型.ipynb)    | ⭐️⭐️⭐️⭐️ |   1hour    | ✅  |
-| * |  [后记：我的产品观](https://mp.weixin.qq.com/s/WXUJ0D2iAIWASlkpv60FLA)    | ⭐️   |   0hour    | ✅  |
+|&nbsp;|[**一、Pytorch的建模流程**](./一、Pytorch的建模流程.md)    |⭐️   |   0hour   |✅    |
+|day1 | [1-1,结构化数据建模流程范例](./1-1,结构化数据建模流程范例.md)    | ⭐️⭐️⭐️ |   1hour    |✅    |
+|day2 | [1-2,图片数据建模流程范例](./1-2,图片数据建模流程范例.md)    | ⭐️⭐️⭐️⭐️  |   2hour    | ✅   |
+|day3 | [1-3,文本数据建模流程范例](./1-3,文本数据建模流程范例.md)   | ⭐️⭐️⭐️⭐️⭐️  |   2hour    | ✅  |
+|day4 | [1-4,时间序列数据建模流程范例](./1-4,时间序列数据建模流程范例.md)   | ⭐️⭐️⭐️⭐️⭐️  |   2hour    | ✅   |
+|&nbsp; |[**二、Pytorch的核心概念**](./二、Pytorch的核心概念.md)  | ⭐️  |  0hour |✅  |
+|day5 |  [2-1,张量数据结构](./2-1,张量数据结构.md)  | ⭐️⭐️⭐️⭐️   |   1hour    | ✅   |
+|day6 |  [2-2,自动微分机制](./2-2,自动微分机制.md)  | ⭐️⭐️⭐️   |   1hour    | ✅  |
+|day7 |  [2-3,动态计算图](./2-3,动态计算图.md)  | ⭐️⭐️⭐️⭐️⭐️   |   2hour    | ✅   |
+|&nbsp; |[**三、Pytorch的层次结构**](./三、Pytorch的层次结构.md) |   ⭐️  |  0hour   | ✅  |
+|day8 |  [3-1,低阶API示范](./3-1,低阶API示范.md)   | ⭐️⭐️⭐️⭐️   |   1hour    | ✅  |
+|day9 |  [3-2,中阶API示范](./3-2,中阶API示范.md)   | ⭐️⭐️⭐️   |  1hour    |✅  |
+|day10 | [3-3,高阶API示范](./3-3,高阶API示范.md)  | ⭐️⭐️⭐️  |   1hour    |✅ |
+|&nbsp; |[**四、Pytorch的低阶API**](./四、Pytorch的低阶API.md) |⭐️    | 0hour| ✅ |
+|day11|  [4-1,张量的结构操作](./4-1,张量的结构操作.md)  | ⭐️⭐️⭐️⭐️⭐️   |   2hour    | ✅ |
+|day12|  [4-2,张量的数学运算](./4-2,张量的数学运算.md)   | ⭐️⭐️⭐️⭐️   |   1hour    |✅ |
+|day13|  [4-3,nn.functional和nn.Module](./4-3,nn.functional和nn.Module.md)  | ⭐️⭐️⭐️⭐️   |   1hour    |✅ |
+|&nbsp; |[**五、Pytorch的中阶API**](./五、Pytorch的中阶API.md) |  ⭐️  | 0hour|✅ |
+|day14|  [5-1,Dataset和DataLoader](./5-1,Dataset和DataLoader.md)   | ⭐️⭐️⭐️⭐️⭐️   |   2hour    | ✅   |
+|day15|  [5-2,模型层](./5-3,模型层.md)  | ⭐️⭐️⭐️   |   1hour    |✅  |
+|day16|  [5-3,损失函数](./5-4,损失函数.md)    | ⭐️⭐️⭐️   |   1hour    |✅   |
+|day17|  [5-4,TensorBoard可视化](./5-4,TensorBoard可视化.md)    | ⭐️⭐️⭐️   |   1hour    | ✅   |
+|&nbsp; |[**六、Pytorch的高阶API**](./六、Pytorch的高阶API.md)|    ⭐️ | 0hour|✅  |
+|day18|  [6-1,构建模型的3种方法](./6-1,构建模型的3种方法.md)   | ⭐️⭐️⭐️⭐️    |   1hour    |✅   |
+|day19|  [6-2,训练模型的3种方法](./6-2,训练模型的3种方法.md)  | ⭐️⭐️⭐️⭐️   |   1hour    | ✅  |
+|day20|  [6-3,使用GPU训练模型](./6-3,使用GPU训练模型.md)    | ⭐️⭐️⭐️⭐️    |   1hour    | ✅  |
+| |  [后记：我的产品观](https://mp.weixin.qq.com/s/WXUJ0D2iAIWASlkpv60FLA)    | ⭐️   |   0hour    | ✅  |
+
 
 ```python
 
@@ -123,22 +157,18 @@ https://www.bilibili.com/video/BV1Ua411P7oe
 
 本书全部源码在jupyter中编写测试通过，建议通过git克隆到本地，并在jupyter中交互式运行学习。
 
-<!-- #region -->
-step1: 克隆本书源码到本地,使用码云镜像仓库国内下载速度更快
+为了直接能够在jupyter中打开markdown文件，建议安装jupytext，将markdown转换成ipynb文件。
+
+```python
+#克隆本书源码到本地,使用码云镜像仓库国内下载速度更快
+#!git clone https://gitee.com/Python_Ai_Road/eat_pytorch_in_20_days
+
+#建议在jupyter notebook 上安装jupytext，以便能够将本书各章节markdown文件视作ipynb文件运行
+#!pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U jupytext
+    
+#建议在jupyter notebook 上安装最新版本pytorch 测试本书中的代码
+#!pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  -U torch torchvision torchtext torchkeras 
 ```
-git clone https://gitee.com/Python_Ai_Road/eat_pytorch_in_20_days
-```
-
-step2: 公众号 **算法美食屋** 回复关键词：**pytorch**， 获取本项目所用数据集汇总压缩包 eat_pytorch_datasets.zip百度云盘下载链接，下载解压并移动到eat_pytorch_in_20_days路径下，约160M。
-
-
-救命方案：如果环境配置遇到了困难，也可以在和鲸社区fork项目后直接运行。
-
-和鲸《20天吃掉pytorch》专栏地址：https://www.heywhale.com/home/column/5f2ac5d8af3980002cb1bc08
-
-
-
-<!-- #endregion -->
 
 ```python
 import torch 
@@ -154,70 +184,9 @@ print("[[2,1]]@[[-1],[2]] =", c.item())
 ```
 
 ```
-torch version: 1.10.0
+torch version: 1.5.0
 [[2,1]]@[[-1],[2]] = 0
 ```
-
-```python
-
-```
-
-
-### 四，项目更新记录
-
-<!-- #region -->
-#### 1， 2022-06🎈🎈更新pytorch模型训练工具库torchkeras
-
-相关章节代码进行了对应优化调整。
-
-|features| torchkeras.KerasModel     |  torchkeras.LightModel   | 
-|----:|:-------------------------:|:-----------:|
-|progress bar | ✅    |✅    |
-|early stopping | ✅    |✅    |
-|metrics from torchmetrics | ✅    |✅    |
-|gpu training | ✅    |✅    |
-|multi-gpus training |   ❌  |✅    |
-|tensorboard callback |   ❌  |✅    |
-|simple source code|   ✅   |❌  |
-
-详情参考项目链接：：https://github.com/lyhue1991/torchkeras 
-
-
-
-#### 2，2022-08🎈🎈更新 **pytorch与广告推荐**章节
-
-适合对广告推荐领域感兴趣，且需要进阶的同学😋😋
-
-
-|日期 | 学习内容                                                       | 内容难度   | 预计学习时间 | 更新状态|
-|----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
-|&nbsp; |[**七、Pytorch与广告推荐**](./七、Pytorch与广告推荐.ipynb)|    ⭐️ | 0hour|✅  |
-|day1|  [7-1,推荐算法业务](./7-1,推荐算法业务.ipynb)   | ⭐️⭐️⭐️    |   0.5hour    |✅   |
-|day2|  [7-2,广告算法业务](./7-2,广告算法业务.ipynb)  | ⭐️⭐️⭐️   |   0.5hour    | ✅  |
-|day3|  [7-3,FM模型](./7-3,FM模型.ipynb)    | ⭐️⭐️⭐️   |   1hour    | ✅  |
-|day4|  [7-4,DeepFM模型](./7-4,DeepFM模型.ipynb)    | ⭐️⭐️⭐️⭐️    |   1hour    | ✅  |
-|day5|  [7-5,FiBiNET模型](./7-5,FiBiNET模型.ipynb)    | ⭐️⭐️⭐️⭐️    |   2hour    | ✅  |
-|day6|  [7-6,DeepCross模型](./7-6,DeepCross模型.ipynb)    | ⭐️⭐️⭐️⭐️⭐️    |   2hour    | ✅  |
-|day7|  [7-7,DIN网络](./7-7,DIN网络.ipynb)    | ⭐️⭐️⭐️⭐️⭐️    |   2hour    | ✅  |
-|day8|  [7-8,DIEN网络](./7-8,DIEN网络.ipynb)    | ⭐️⭐️⭐️⭐️⭐️    |   2hour    | ✅  |
-
-
-
-#### 3，2022-09🎈🎈更新 彩蛋章节
-
-介绍一些与pytorch相关的周边工具
-
-
-|日期 | 学习内容                                                       | 内容难度   | 预计学习时间 | 更新状态|
-|----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
-|&nbsp; |[**彩蛋：Pytorch周边工具**](./彩蛋：Pytorch周边工具.ipynb)|    ⭐️ | 0hour|✅  |
-|day1|  [A-1, Kaggle免费GPU使用攻略](./A-1,Kaggle免费GPU使用攻略.ipynb)   | ⭐️⭐️⭐️    |   1hour    |✅   |
-|day2|  [A-2, Streamlit构建机器学习应用](./A-2,Streamlit构建机器学习应用.ipynb)  | ⭐️⭐️⭐️   |  1hour    | ✅  |
-
-
-
-
-<!-- #endregion -->
 
 ```python
 
@@ -232,7 +201,7 @@ torch version: 1.10.0
 
 也可以在公众号后台回复关键字：**加群**，加入读者交流群和大家讨论。
 
-![算法美食屋logo.png](https://tva1.sinaimg.cn/large/e6c9d24egy1h41m2zugguj20k00b9q46.jpg)
+![算法美食屋logo.png](./data/算法美食屋二维码.jpg)
 
 ```python
 
